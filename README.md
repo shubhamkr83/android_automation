@@ -1,221 +1,394 @@
+<div align="center">
 
-# Bizup App
+# 🛍️ Bizup Buyer App - Android Automation Framework
 
-This is Zero commission video shopping B2B wholesale app, specially made for B2B buyers and sellers in the fashion industry. 100% genuine sellers, cash on delivery (COD) available, cheapest online wholesale rates. 
+[![Java](https://img.shields.io/badge/Java-8+-orange.svg)](https://www.oracle.com/java/)
+[![Appium](https://img.shields.io/badge/Appium-10.0.0-blue.svg)](http://appium.io/)
+[![TestNG](https://img.shields.io/badge/TestNG-7.11.0-red.svg)](https://testng.org/)
+[![Maven](https://img.shields.io/badge/Maven-Build-green.svg)](https://maven.apache.org/)
 
-## Tech Used:- 
-- Java
-- Appium 
-- TestNG 
-- Maven
-- Jenkins 
-- Extend Report
+**Zero-commission B2B video shopping platform for the fashion industry**
 
-## Installation Process of an Appium Java Project from Git to Local System (Windows)
+*100% genuine sellers • Cash on Delivery • Wholesale rates*
 
-This README provides a concise guide on installing an Appium Java project from a Git repository onto a Windows system. Follow these steps to get started:
-
-### Prerequisites
-
-- Ensure you have Java Development Kit (JDK) installed on your system. You can verify this by running `java -version` in your command prompt. If JDK is not installed, download and install it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-
-- Install Node.js and npm (Node Package Manager), which are required for managing Appium and its dependencies. Download Node.js from [Node.js official website](https://nodejs.org/en/download/) and install it. npm comes bundled with Node.js.
-
-### Step-by-Step Installation
-
-1. **Clone the Repository**
-   - Open Command Prompt.
-   - Navigate to the directory where you want to clone the project.
-   - Run `git clone <repository-url>` to clone the project.
-
-2. **Install Java Project Dependencies**
-   - Navigate to the project directory.
-   - Run `mvn clean install` to compile and install the project dependencies. Maven is assumed to be installed and configured correctly on your system.
-
-3. **Install Appium**
-   - Still in the project directory, run `npm install -g appium` to install Appium globally on your system.
-
-4. **Install Appium Java Client**
-   - Within the project directory, run `npm install appium-java-client` to install the Appium Java client library.
-
-
-7. **Running the Project**
-   - With the project dependencies installed and Appium set up, you can now run your Appium Java tests. Use Maven to run your tests by executing `mvn test` within the project directory.
-
-
+</div>
 
 ---
 
-## Overview
+## 📋 Table of Contents
 
-This repository contains the **Android UI automation framework** for the **Bizup Buyer App** – a zero-commission B2B video shopping application for fashion buyers and sellers.
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Prerequisites](#-prerequisites)
+- [Installation & Setup](#-installation--setup)
+- [Configuration](#-configuration)
+- [Running Tests](#-running-tests)
+- [Reports & Logs](#-reports--logs)
+- [BrowserStack Integration](#-browserstack-integration)
+- [Email Notifications](#-email-notifications)
 
-The automation covers major buyer journeys like **login**, **search & seller chat**, and **cart/order flows**, and supports multiple **app versions** (143, 148, 151) and **test types** (Smoke / Regression).
+---
 
-## Features
+## 🎯 Overview
 
-- **Page Object Model (POM)** for Bizup screens (`buyer.pageObjects`).
-- **Versioned test suites** under `Bizupautomation.testCases.version_143/148/151`.
-- Central **driver & Appium lifecycle** in `Bizupautomation.testUtils.Base`.
-- Reusable **Android actions & utilities** in `AndroidActions`.
-- **TestNG + ExtentReports** integration via custom `Listeners`.
-- **Log4j2 logging** configured via `src/main/resources/log4j2.xml`.
-- Optional **BrowserStack** integration using YAML configs per app version.
-- Optional **email summary** with HTML report and test statistics after suite execution.
+This repository contains the **Android UI automation framework** for the **Bizup Buyer App** – a zero-commission B2B video shopping application connecting fashion buyers and sellers.
 
-## Tech Stack
+### What We Test
 
-- Java 8+
-- Appium Java Client `10.0.0`
-- TestNG `7.11.0`
-- Maven
-- ExtentReports `5.1.2`
-- Log4j2 (`log4j-core` / `log4j-api` `2.24.3`)
-- BrowserStack Java SDK `1.39.1`
-- Jackson (JSON/YAML), Apache Commons IO, org.json
-- JavaMail (`javax.mail` `1.6.2`)
+✅ **Login flows** – Language selection, authentication, permissions  
+✅ **Search & Discovery** – Product search, seller profiles, video feeds  
+✅ **Cart & Orders** – Add to cart, checkout flows, order management  
+✅ **Multi-version support** – App versions `2.16.4 (143)`, `3.0.1 (148)`, `3.0.4 (151)`  
+✅ **Test types** – Smoke & Regression suites per version
 
-## High-Level Project Structure
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🎨 **Page Object Model** | Clean separation of test logic and UI elements (`buyer.pageObjects`) |
+| 📦 **Versioned Test Suites** | Organized by app version: `143`, `148`, `151` |
+| 🔧 **Centralized Driver Management** | Single `AndroidDriver` instance via `Base` class |
+| 🛠️ **Reusable Utilities** | Common actions in `AndroidActions` (screenshots, JSON parsing, etc.) |
+| 📊 **Rich Reporting** | ExtentReports with screenshots on failure |
+| 📝 **Structured Logging** | Log4j2 configuration for debugging |
+| ☁️ **BrowserStack Ready** | YAML configs for cloud device testing |
+| 📧 **Email Notifications** | Automated HTML summary with test statistics |
+| 🔄 **Retry Mechanism** | Auto-retry failed tests via `RetryAnalyzer` |
+
+## 🔧 Tech Stack
+
+<table>
+<tr>
+<td width="50%">
+
+**Core Technologies**
+- ☕ Java 8+
+- 📱 Appium Java Client `10.0.0`
+- 🧪 TestNG `7.11.0`
+- 📦 Maven (Build & Dependency Management)
+
+</td>
+<td width="50%">
+
+**Libraries & Tools**
+- 📊 ExtentReports `5.1.2`
+- 📝 Log4j2 `2.24.3`
+- ☁️ BrowserStack Java SDK `1.39.1`
+- 📧 JavaMail `1.6.2`
+- 🔄 Jackson (JSON/YAML), Commons IO
+
+</td>
+</tr>
+</table>
+
+## 📁 Project Structure
 
 ```text
 android-automation/
-  pom.xml                 # Dependencies and Maven profiles
-  README.md
-  testNGSuites/           # TestNG XML suites (Smoke & Regression per app version)
-  browserstack_app*.yml   # BrowserStack configs per app version
-
-  src/
-    main/
-      java/
-        buyer/
-          pageObjects/    # Page Objects for Bizup app screens
-          resources/      # data.properties (Appium, email, BrowserStack IDs)
-          utils/          # Additional utilities (if any)
-      resources/
-        log4j2.xml        # Log4j2 configuration
-
-    test/
-      java/
-        Bizupautomation/
-          testCases/
-            version_143/
-            version_148/
-            version_151/  # Tests grouped by app version
-          testData/       # Test data (JSON etc.)
-          testUtils/      # Base, AndroidActions, Listeners, RetryAnalyzer, etc.
-
-  reports/                # Extent HTML reports & screenshots
-  logs/                   # Log files (per log4j2.xml)
+├── 📄 pom.xml                          # Maven dependencies & test profiles
+├── 📄 README.md
+├── 📂 testNGSuites/                    # TestNG XML suites
+│   ├── testng_Smoke143.xml
+│   ├── testng_Smoke148.xml
+│   ├── testng_Smoke151.xml
+│   ├── testng_Regression143.xml
+│   ├── testng_Regression148.xml
+│   └── testng_Regression151.xml
+├── 📄 browserstack_app*.yml            # BrowserStack configs per version
+│
+├── 📂 src/
+│   ├── 📂 main/java/buyer/
+│   │   ├── 📂 pageObjects/             # Page Object Model classes
+│   │   ├── 📂 resources/               # data.properties (config)
+│   │   └── 📂 utils/                   # Shared utilities
+│   ├── 📂 main/resources/
+│   │   └── 📄 log4j2.xml               # Logging configuration
+│   │
+│   └── 📂 test/java/Bizupautomation/
+│       ├── 📂 testCases/
+│       │   ├── 📂 version_143/         # Tests for app v2.16.4
+│       │   ├── 📂 version_148/         # Tests for app v3.0.1
+│       │   └── 📂 version_151/         # Tests for app v3.0.4
+│       ├── 📂 testData/                # Test data (JSON files)
+│       └── 📂 testUtils/               # Base, AndroidActions, Listeners, etc.
+│
+├── 📂 reports/                         # ExtentReports HTML & screenshots
+└── 📂 logs/                            # Log4j2 log files
 ```
 
-## Configuration
+## 📋 Prerequisites
 
-### 1. App & framework settings (`data.properties`)
+Before you begin, ensure you have the following installed:
 
-Location: `src/main/java/buyer/resources/data.properties`
+| Tool | Version | Verification Command | Download Link |
+|------|---------|---------------------|---------------|
+| ☕ **Java JDK** | 8+ | `java -version` | [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html) |
+| 📦 **Maven** | 3.8+ | `mvn -version` | [Maven](https://maven.apache.org/download.cgi) |
+| 🟢 **Node.js & npm** | Latest LTS | `node -v` / `npm -v` | [Node.js](https://nodejs.org/) |
+| 📱 **Appium** | Latest | `appium -v` | `npm install -g appium` |
+| 🤖 **Android SDK** | Latest | `adb version` | [Android Studio](https://developer.android.com/studio) |
 
-Important keys:
+---
 
-- `ipAddress` / `port` – Appium server host and port (e.g. `127.0.0.1:4723`).
-- `Device1`, `Device2`, `Devise3` – Device names/UDIDs for local execution.
-- `EMAIL_USERNAME`, `EMAIL_PASSWORD` – SMTP credentials for report emails.
-- `BROWSERSTACK_EMAIL`, `BROWSERSTACK_BUILD_ID` – Used for BrowserStack dashboard link in emails.
+## 🚀 Installation & Setup
 
-> Replace real secrets with your own values and avoid committing them in public repos.
-
-### 2. BrowserStack configs
-
-Files:
-
-- `browserstack_app151.yml`
-- `browserstack_app148.yml`
-- `browserstack_app143.yml`
-
-Each file defines:
-
-- `userName`, `accessKey` – BrowserStack credentials.
-- `app` – Bizup app under test (`bs://<app-id>` or local path).
-- `projectName`, `buildName`, `buildIdentifier` – Reporting metadata.
-- `platforms` – Device & OS matrix.
-
-These are wired to Maven profiles via the `browserstack.config` system property in `pom.xml`.
-
-### 3. Appium main.js path
-
-In `Bizupautomation.testUtils.Base`, update `NODE_JS_MAIN_PATH` to point to your global Appium installation, for example:
-
-```java
-public static String NODE_JS_MAIN_PATH =
-    "C:\\Users\\<user>\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
-```
-
-## Setup & Prerequisites
-
-1. Install:
-   - JDK 8+
-   - Maven
-   - Node.js & npm
-   - Appium (`npm install -g appium`)
-   - Android SDK & platform-tools (`adb`)
-
-2. Clone and build:
+### Step 1: Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone <repository-url>
 cd android-automation
+```
+
+### Step 2: Install Dependencies
+
+```bash
+# Install all Maven dependencies (includes Appium Java Client)
 mvn clean install
 ```
 
-3. Configure:
-   - Update `data.properties` with your device, email, and BrowserStack details.
-   - Adjust `NODE_JS_MAIN_PATH` in `Base` if required.
-   - Ensure Bizup app is installed on the target device/emulator or uploaded to BrowserStack.
+> **Note:** The Appium Java Client is automatically downloaded as a Maven dependency from `pom.xml`. No need to install it separately via npm.
 
-## How to Run Tests
-
-Tests are executed via **Maven profiles** that map to TestNG suites in `testNGSuites/`.
-
-### Smoke suites
+### Step 3: Install Appium Server
 
 ```bash
-# Smoke tests for version 3.0.4 (151)
+# Install Appium globally
+npm install -g appium
+```
+
+### Step 4: Verify Installation
+
+```bash
+# Check all tools are properly installed
+java -version
+mvn -version
+appium -v
+adb version
+```
+
+---
+
+## ⚙️ Configuration
+
+### 1️⃣ Framework Settings (`data.properties`)
+
+**Location:** `src/main/java/buyer/resources/data.properties`
+
+```properties
+# Appium Server Configuration
+ipAddress=127.0.0.1
+port=4723
+
+# Device Configuration (for local execution)
+Device1="Samsung SM-E146B"
+Device2="Xiaomi Redmi Y1"
+Devise3="Samsung SM-S711B"
+
+# Email Configuration (for test reports)
+EMAIL_USERNAME=your-email@example.com
+EMAIL_PASSWORD=your-app-password
+
+# BrowserStack Configuration
+BROWSERSTACK_EMAIL=your-browserstack-email@example.com
+BROWSERSTACK_BUILD_ID=your-build-id
+```
+
+> ⚠️ **Security:** Never commit real credentials to version control. Use environment variables or secret management tools.
+
+### 2️⃣ BrowserStack Configs
+
+Each app version has its own BrowserStack configuration:
+
+| File | App Version | Purpose |
+|------|-------------|---------|
+| `browserstack_app151.yml` | 3.0.4 (151) | Latest version tests |
+| `browserstack_app148.yml` | 3.0.1 (148) | Previous version tests |
+| `browserstack_app143.yml` | 2.16.4 (143) | Legacy version tests |
+
+**Key Configuration Fields:**
+- `userName`, `accessKey` – BrowserStack credentials
+- `app` – App under test (`bs://<app-id>`)
+- `platforms` – Device & OS combinations
+- `projectName`, `buildName` – Reporting metadata
+
+### 3️⃣ Appium Server Path
+
+Update `NODE_JS_MAIN_PATH` in `Bizupautomation.testUtils.Base`:
+
+```java
+// Windows Example
+public static String NODE_JS_MAIN_PATH = 
+    "C:\\Users\\<YourUser>\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js";
+
+// Linux/Mac Example
+// public static String NODE_JS_MAIN_PATH = 
+//     "/usr/local/lib/node_modules/appium/build/lib/main.js";
+```
+
+### 4️⃣ Final Setup Checklist
+
+- [ ] Update `data.properties` with your device/email/BrowserStack details
+- [ ] Adjust `NODE_JS_MAIN_PATH` in `Base.java`
+- [ ] Ensure Bizup app is installed on device/emulator OR uploaded to BrowserStack
+- [ ] Verify device is connected: `adb devices`
+
+## 🧪 Running Tests
+
+Tests are executed via **Maven profiles** that map to TestNG XML suites in `testNGSuites/`.
+
+### 🔥 Smoke Test Suites
+
+Quick sanity checks covering critical flows:
+
+```bash
+# App Version 3.0.4 (151) - Latest
 mvn clean test -P Smoke151
 
-# Smoke tests for version 3.0.1 (148)
+# App Version 3.0.1 (148)
 mvn clean test -P Smoke148
 
-# Smoke tests for version 2.16.4 (143)
+# App Version 2.16.4 (143) - Legacy
 mvn clean test -P Smoke143
 ```
 
-### Regression suites
+### 🔄 Regression Test Suites
+
+Comprehensive test coverage:
 
 ```bash
-# Regression tests for version 3.0.4 (151)
+# App Version 3.0.4 (151) - Latest
 mvn clean test -P Regression151
 
-# Regression tests for version 3.0.1 (148)
+# App Version 3.0.1 (148)
 mvn clean test -P Regression148
 
-# Regression tests for version 2.16.4 (143)
+# App Version 2.16.4 (143) - Legacy
 mvn clean test -P Regression143
 ```
 
-> You can also run individual TestNG classes from your IDE, as long as they extend `Base`.
+### 💻 Running from IDE
 
-## Reports & Logs
+1. Open any test class under `Bizupautomation.testCases.version_xxx`
+2. Ensure the class extends `Base`
+3. Right-click → **Run as TestNG Test**
 
-- **ExtentReports HTML** generated under `reports/`.
-- **Screenshots on failure** saved in `reports/` via `AndroidActions.getScreenshotPath`.
-- Standard **TestNG output** under `test-output/`.
-- **Log4j2 logs** written as configured in `log4j2.xml` (commonly under `logs/`).
+### 📊 Available Test Profiles
 
-## BrowserStack & Email Summary
+| Profile | Suite File | App Version | Test Type |
+|---------|-----------|-------------|-----------|
+| `Smoke151` | `testng_Smoke151.xml` | 3.0.4 (151) | Smoke |
+| `Smoke148` | `testng_Smoke148.xml` | 3.0.1 (148) | Smoke |
+| `Smoke143` | `testng_Smoke143.xml` | 2.16.4 (143) | Smoke |
+| `Regression151` | `testng_Regression151.xml` | 3.0.4 (151) | Regression |
+| `Regression148` | `testng_Regression148.xml` | 3.0.1 (148) | Regression |
+| `Regression143` | `testng_Regression143.xml` | 2.16.4 (143) | Regression |
 
-- When enabled, `Listeners` + `AndroidActions` build an **HTML email summary** after suite completion:
-  - Total, passed, failed, skipped tests.
-  - Per-test status and description.
-  - BrowserStack dashboard link based on `BROWSERSTACK_BUILD_ID`.
-- Attachments such as the Extent HTML report (and optionally logs) can be sent using JavaMail.
+## 📊 Reports & Logs
 
-To enable emails, ensure SMTP credentials in `data.properties` are valid and permitted to send programmatically.
+### Test Reports
+
+| Report Type | Location | Description |
+|-------------|----------|-------------|
+| 📈 **ExtentReports** | `reports/` | Rich HTML reports with test details |
+| 📸 **Screenshots** | `reports/` | Auto-captured on test failures |
+| 📋 **TestNG Reports** | `test-output/` | Standard TestNG HTML/XML reports |
+| 📝 **Log Files** | `logs/` | Detailed execution logs (Log4j2) |
+
+### Sample Report Structure
+
+```text
+reports/
+├── TestReport_2024-11-23_14.html    # Timestamped HTML report
+├── TestLogin.png                     # Screenshot on failure
+├── TestCartFlow.png
+└── ...
+
+logs/
+├── application.log                   # Main application log
+└── ...
+```
+
+---
+
+## ☁️ BrowserStack Integration
+
+### Features
+
+- ✅ Run tests on **real devices** in the cloud
+- ✅ Parallel execution across multiple devices
+- ✅ Automatic video recording of test sessions
+- ✅ Network logs and device logs capture
+- ✅ Dashboard with detailed test analytics
+
+### Configuration
+
+Each Maven profile automatically loads the corresponding BrowserStack YAML:
+
+```bash
+mvn clean test -P Smoke151
+# Loads: browserstack_app151.yml
+# Runs on: Samsung Galaxy S22 Ultra (Android 12)
+```
+
+### View Results
+
+After execution, check your BrowserStack dashboard:
+```
+https://app-automate.browserstack.com/dashboard/v2/builds/<BUILD_ID>
+```
+
+---
+
+## 📧 Email Notifications
+
+### Automated Email Reports
+
+After each test suite execution, an **HTML email summary** is automatically sent with:
+
+✅ **Test Statistics** – Total, Passed, Failed, Skipped counts  
+✅ **Per-Test Details** – Test name, description, and status  
+✅ **BrowserStack Link** – Direct link to dashboard  
+✅ **Attachments** – ExtentReports HTML and log files
+
+### Email Configuration
+
+1. Update `data.properties`:
+   ```properties
+   EMAIL_USERNAME=your-email@example.com
+   EMAIL_PASSWORD=your-app-password
+   ```
+
+2. For Gmail, enable **App Passwords**:
+   - Go to Google Account → Security → 2-Step Verification → App Passwords
+   - Generate a new app password for "Mail"
+
+3. Update recipient list in `Listeners.java`:
+   ```java
+   AndroidActions.sendReportEmailWithLogs(
+       "qa-team@example.com, manager@example.com",
+       "🚀 Bizup Buyer App Test Execution Report",
+       emailBody,
+       reportFilePath
+   );
+   ```
+
+### Sample Email
+
+<table>
+<tr><td>
+
+**Subject:** 🚀 Bizup Buyer App Test Execution Report
+
+**Content:**
+- 📱 App Version: 3.0.4 (151)
+- 🧪 Test Name: Smoke151
+- ✅ Passed: 8
+- ❌ Failed: 1
+- ⚠️ Skipped: 0
+- 🌐 [View BrowserStack Dashboard](https://app-automate.browserstack.com/...)
+
+</td></tr>
+</table>
+
+---
