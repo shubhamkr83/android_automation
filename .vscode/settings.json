@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnType": true,
+  "java.compile.nullAnalysis.mode": "automatic",
+  "files.autoSave": "onFocusChange",
+  "java.configuration.updateBuildConfiguration": "automatic"
+}

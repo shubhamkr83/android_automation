@@ -1,0 +1,38 @@
+2025-09-04 16:24:16 [INFO] Bizupautomation.testUtils.Base - Base class initialized ?
+2025-09-04 16:24:16 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ?
+2025-09-04 16:24:16 [INFO] Bizupautomation.testCases.version_151.TestSearchSellerChat - TestSearchSellerChat class initialized ?
+2025-09-04 16:24:16 [INFO] Bizupautomation.testCases.version_151.TestCartFlow - TestCartFlow class initialized ?
+2025-09-04 16:24:19 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-09-04 16:24:19 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-09-04 16:24:19 [INFO] Bizupautomation.testUtils.Base - ???------------ Running tests on App Version: 3.0.4 (151) -----------???
+2025-09-04 16:24:24 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginLangCheck
+2025-09-04 16:24:24 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginFlow
+2025-09-04 16:24:25 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchSellerChatFlow
+2025-09-04 16:24:26 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomeVideoCartFlow
+2025-09-04 16:24:26 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchCartFlow
+2025-09-04 16:24:26 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomepageCartFlow
+2025-09-04 16:24:26 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: OrderpageCartFlow
+2025-09-04 16:24:27 [INFO] Bizupautomation.testUtils.Listeners - Report will be saved at: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_16.html
+2025-09-04 16:24:27 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_16.html
+2025-09-04 16:24:27 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\logs\TestLogs_2025-09-04_16.log
+2025-09-04 16:24:31 [INFO] Bizupautomation.testUtils.AndroidActions - ?? Email with multiple attachments sent successfully! ?
+2025-09-04 16:24:31 [INFO] Bizupautomation.testUtils.AndroidActions - ? Email sent with test report and logs!
+2025-09-04 16:55:32 [INFO] Bizupautomation.testUtils.Base - Base class initialized ?
+2025-09-04 16:55:32 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ?
+2025-09-04 16:55:32 [INFO] Bizupautomation.testCases.version_151.TestSearchSellerChat - TestSearchSellerChat class initialized ?
+2025-09-04 16:55:32 [INFO] Bizupautomation.testCases.version_151.TestCartFlow - TestCartFlow class initialized ?
+2025-09-04 16:55:34 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-09-04 16:55:34 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-09-04 16:55:34 [INFO] Bizupautomation.testUtils.Base - ???------------ Running tests on App Version: 3.0.4 (151) -----------???
+2025-09-04 16:55:38 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginLangCheck
+2025-09-04 16:55:38 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginFlow
+2025-09-04 16:55:39 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchSellerChatFlow
+2025-09-04 16:55:40 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomeVideoCartFlow
+2025-09-04 16:55:40 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchCartFlow
+2025-09-04 16:55:40 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomepageCartFlow
+2025-09-04 16:55:40 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: OrderpageCartFlow
+2025-09-04 16:55:40 [INFO] Bizupautomation.testUtils.Listeners - Report will be saved at: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_16.html
+2025-09-04 16:55:40 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_16.html
+2025-09-04 16:55:40 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\logs\TestLogs_2025-09-04_16.log
+2025-09-04 16:55:45 [INFO] Bizupautomation.testUtils.AndroidActions - ?? Email with multiple attachments sent successfully! ?
+2025-09-04 16:55:45 [INFO] Bizupautomation.testUtils.AndroidActions - ? Email sent with test report and logs!

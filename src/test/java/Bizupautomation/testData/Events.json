@@ -1,0 +1,257 @@
+{
+	"events": {
+		"LoginLanguage": [
+			{
+				"id": "lang_hindi",
+				"event": "login_lang_hindi",
+				"locator": "com.sot.bizup.debug:id/ivHindiBg"
+			},
+			{
+				"id": "lang_english",
+				"event": "login_lang_english",
+				"locator": "com.sot.bizup.debug:id/ivEnglishBg"
+			},
+			{
+				"id": "lang_continue",
+				"event": "login_lang_continue",
+				"locator": "com.sot.bizup.debug:id/mbContinue"
+				
+			}
+		],
+		"LoginPage": [
+			{
+				"id": "login_number",
+				"event": "send_otp_btn_clicked"
+			}
+		],
+		"HomePage": {
+			"general": [
+				{
+					"id": "home_view",
+					"event": "home_page_viewed"
+				},
+				{
+					"id": "outside_filter",
+					"event": "product_clicked"
+				},
+				{
+					"id": "banner",
+					"event": "banner_item_click"
+				}
+			],
+			"gender_filters": [
+				{
+					"id": "all",
+					"event": "suitable_filter_selected",
+					"value": "all"
+				},
+				{
+					"id": "men",
+					"event": "suitable_filter_selected",
+					"value": "men"
+				},
+				{
+					"id": "women",
+					"event": "suitable_filter_selected",
+					"value": "women"
+				}
+			],
+			"product_filters": [
+				{
+					"id": "product",
+					"event": "product_filter_clicked"
+				},
+				{
+					"id": "product_view",
+					"event": "product_page_viewed"
+				}
+			],
+			"price_filters": [
+				{
+					"id": "price",
+					"event": "price_filter_clicked"
+				},
+				{
+					"id": "price_view",
+					"event": "price_filter_viewed"
+				}
+			],
+			"city_filters": [
+				{
+					"id": "city",
+					"event": "city_filter_clicked"
+				},
+				{
+					"id": "city_view",
+					"event": "city_page_viewed"
+				}
+			]
+		},
+		"SearchPage": {
+			"general": [
+				{
+					"id": "input",
+					"event": "clicked_search"
+				},
+				{
+					"id": "video_recomm_chip",
+					"event": "clicked_search_video_chip"
+				},
+				{
+					"id": "video_play",
+					"event": "clicked_search_video_image"
+				},
+				{
+					"id": "sample_recomm_chip",
+					"event": "clicked_search_chip"
+				},
+				{
+					"id": "sample_full_view_open",
+					"event": "clicked_search_image"
+				},
+				{
+					"id": "sample_full_view_close",
+					"event": "search_image_close"
+				},
+				{
+					"id": "seller_card",
+					"event": "search_result_seller_clicked"
+				}
+			],
+			"video_tab": [
+				{
+					"id": "view",
+					"event": "search_video_page_viewed"
+				},
+				{
+					"id": "results",
+					"event": "search_video_result_visible"
+				}
+			],
+			"sample_tab": [
+				{
+					"id": "view",
+					"event": "search_page_viewed"
+				},
+				{
+					"id": "results",
+					"event": "search_result_visible"
+				}
+			],
+			"sample_order": [
+				{
+					"id": "product_click",
+					"event": "clicked_search_product"
+				},
+				{
+					"id": "sample_order_chat",
+					"event": "super_enquiry"
+				}
+			]
+		},
+		"ProfilePage": [
+			{
+				"id": "icon",
+				"event": "clicked_profile"
+			},
+			{
+				"id": "refer",
+				"event": "refer_screen_viewed"
+			},
+			{
+				"id": "refer_button",
+				"event": "refer_button_clicked"
+			},
+			{
+				"id": "setting",
+				"event": "setting_clicked"
+			},
+			{
+				"id": "edit",
+				"event": "edit_details_clicked"
+			},
+			{
+				"id": "edit_update",
+				"event": "user_profile_update"
+			},
+			{
+				"id": "profile_lang_hindi",
+				"event": "profile_lang_hindi"
+			},
+			{
+				"id": "profile_lang_english",
+				"event": "profile_lang_english"
+			}
+		],
+		"VideoPage": {
+			"VideoPageInitial": [
+				{
+					"id": "view",
+					"event": "video_page_viewed"
+				},
+				{
+					"id": "subtitle",
+					"event": "video_subtitle_disabled"
+				},
+				{
+					"id": "wait_time",
+					"event": "event_video_play_wait_time"
+				}
+			],
+			"productfilter": [
+				{
+					"id": "filter",
+					"event": "product_search_filter_clicked"
+				},
+				{
+					"id": "view",
+					"event": "video_product_page_viewed"
+				}
+			],
+			"cityfilter": [
+				{
+					"id": "filter",
+					"event": "product_price_filter_clicked"
+				},
+				{
+					"id": "view",
+					"event": "price_video_filter_viewed"
+				}
+			],
+			"locationfilter": [
+				{
+					"id": "filter",
+					"event": "location_search_filter_clicked"
+				},
+				{
+					"id": "view",
+					"event": "city_video_page_viewed"
+				}
+			],
+			"general": [
+				{
+					"id": "next",
+					"event": "videovariant4_cta4_noclicked"
+				},
+				{
+					"id": "catalog",
+					"event": "videovariant4_cta4_yesclicked"
+				}
+			]
+		},
+		"CartPage": [
+			{
+				"id": "page_view",
+				"event": "pay_v2_paypage_view"
+			},
+			{
+				"id": "bottom_pay_click",
+				"event": "pay_v2_pay_top"
+			},
+			{
+				"id": "popup_pay_click",
+				"event": "pay_v2_pay_popup"
+			}
+		]
+	}
+}

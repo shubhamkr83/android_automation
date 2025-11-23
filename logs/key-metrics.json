@@ -1,0 +1,14 @@
+[ {
+  "duration" : 0.14,
+  "eventName" : "sdk:hook",
+  "startTime" : 1.3753958678485E9,
+  "success" : true,
+  "worker" : 61,
+  "failure" : null,
+  "details" : null,
+  "entryType" : "measure",
+  "platform" : 0,
+  "command" : null,
+  "testName" : "InstallAndLogin-0",
+  "hookType" : "beforeEach"
+} ]

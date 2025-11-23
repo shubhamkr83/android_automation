@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BizupBuyerApp">
+	
+	<listeners>
+		<listener class-name="Bizupautomation.testUtils.Listeners" />
+	</listeners>
+
+
+<test name="InstallAndLogin">
+		<classes>
+<class name="Bizupautomation.testCases.version_148.TestLogin"/>
+
+</classes>
+</test>
+
+<test name="SearchSellerChat">
+<classes>
+<class name="Bizupautomation.testCases.version_148.TestSearchSellerChat"/>
+
+</classes>
+</test>
+
+<test name="CartFlow">
+<classes>
+<class name="Bizupautomation.testCases.version_148.TestCartFlow"/>
+
+		</classes>
+	</test>
+
+	
+</suite> 

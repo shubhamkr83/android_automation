@@ -1,0 +1,19 @@
+2025-09-04 15:22:51 [INFO] Bizupautomation.testUtils.Base - Base class initialized ?
+2025-09-04 15:22:51 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ?
+2025-09-04 15:22:51 [INFO] Bizupautomation.testCases.version_151.TestSearchSellerChat - TestSearchSellerChat class initialized ?
+2025-09-04 15:22:51 [INFO] Bizupautomation.testCases.version_151.TestCartFlow - TestCartFlow class initialized ?
+2025-09-04 15:22:54 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-09-04 15:22:54 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-09-04 15:22:54 [INFO] Bizupautomation.testUtils.Base - ???------------ Running tests on App Version: 3.0.4 (151) -----------???
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginLangCheck
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: LoginFlow
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchSellerChatFlow
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomeVideoCartFlow
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: SearchCartFlow
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: HomepageCartFlow
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.Listeners - ?? Test Skipped: OrderpageCartFlow
+2025-09-04 15:23:01 [INFO] Bizupautomation.testUtils.Listeners - Report will be saved at: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_15.html
+2025-09-04 15:23:01 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\reports\TestReport_2025-09-04_15.html
+2025-09-04 15:23:01 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\HP\Documents\Bizup Codebase\android_automation\buyer_app_appium\logs\TestLogs_2025-09-04_15.log
+2025-09-04 15:23:01 [ERROR] Bizupautomation.testUtils.AndroidActions - ? Error occurred while sending email: Couldn't connect to host, port: smtp.gmail.com, 587; timeout -1
+2025-09-04 15:23:01 [INFO] Bizupautomation.testUtils.AndroidActions - ? Email sent with test report and logs!

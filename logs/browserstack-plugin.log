@@ -1,0 +1,93 @@
+18:06:22.453 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+18:06:23.010 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=6hzG1Z4UsnCMqG1pxKXp, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BizupAppCloud, archetypeVersion=1.5, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=shub_htp9lF, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.10]
+18:07:02.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:07:02.310 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:07:02.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+18:07:02.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:07:02.315 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:07:02.318 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+18:23:04.680 [Worker-26: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:23:04.776 [Worker-26: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:23:04.780 [Worker-26: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:23:04.782 [Worker-26: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+18:35:56.337 [Worker-37: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:35:56.390 [Worker-37: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:35:56.397 [Worker-37: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:35:56.400 [Worker-37: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+18:42:01.253 [Worker-39: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:42:01.301 [Worker-39: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:42:01.306 [Worker-39: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:42:01.308 [Worker-39: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+18:45:11.797 [Worker-29: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:45:11.800 [Worker-29: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:45:11.802 [Worker-29: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:45:11.804 [Worker-29: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+18:57:01.964 [Worker-45: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:57:02.001 [Worker-45: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:57:02.006 [Worker-45: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:57:02.009 [Worker-45: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+19:03:26.056 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:03:26.071 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+19:03:26.077 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:03:26.079 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+19:09:12.231 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:09:12.247 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+19:09:12.254 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:09:12.256 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+19:11:58.636 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:11:58.641 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+19:11:58.645 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:11:58.676 [Worker-42: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+19:38:51.663 [Worker-52: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+19:38:51.676 [Worker-52: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+19:38:51.679 [Worker-52: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+19:38:51.680 [Worker-52: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+06:26:49.123 [Worker-67: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+06:26:49.234 [Worker-67: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+06:26:49.242 [Worker-67: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+06:26:49.244 [Worker-67: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+06:38:11.953 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+06:38:11.955 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+06:38:11.957 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+06:38:11.958 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+06:38:11.958 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+06:38:11.960 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+07:03:12.109 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+07:03:12.114 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+07:03:12.116 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+07:03:12.117 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+07:03:12.117 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+07:03:12.118 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+07:04:21.063 [Worker-79: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+07:04:21.121 [Worker-79: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+07:04:21.131 [Worker-79: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+07:04:21.132 [Worker-79: Launching BuyerAppAppiumFramworkCloud_testNGSuites.testng_Smoke.xml] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+13:10:16.759 [Worker-80: Launching TestFilters] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+13:10:16.852 [Worker-80: Launching TestFilters] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+13:10:16.858 [Worker-80: Launching TestFilters] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+13:10:16.860 [Worker-80: Launching TestFilters] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+13:12:24.819 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+13:56:17.572 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+13:56:17.615 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+13:56:17.621 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+13:56:17.623 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+13:56:17.628 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+13:56:17.631 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+16:09:44.647 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:09:44.668 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:09:44.672 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+16:09:44.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:09:44.674 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:09:44.677 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+16:10:10.392 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:10:10.393 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:10:10.395 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+16:10:10.397 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:10:10.397 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:10:10.400 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud
+17:36:13.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:36:13.575 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:36:13.579 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/BuyerAppAppiumFramworkCloud
+17:36:13.580 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:36:13.580 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:36:13.582 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/BuyerAppAppiumFramworkCloud

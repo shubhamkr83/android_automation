@@ -1,0 +1,78 @@
+2025-03-26 17:00:06 [INFO] Bizupautomation.testUtils.Base - Base class initialized ✅
+2025-03-26 17:00:06 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ✅
+2025-03-26 17:00:06 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-03-26 17:00:06 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-03-26 17:00:06 [INFO] Bizupautomation.testUtils.Base - ✨✨✨------------ Running tests on App Version: 3.0.4 (151) -----------✨✨✨
+2025-03-26 17:00:43 [INFO] Bizupautomation.testUtils.Base - ✅ Base constructor called. Driver initialized: true
+2025-03-26 17:00:49 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:00:50 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check Start ------------✨✨
+2025-03-26 17:00:53 [INFO] buyer.pageObjects.LoginPage - English Language selected successfully ✅
+2025-03-26 17:00:54 [INFO] buyer.pageObjects.LoginPage - Continue Button clicked ✅
+2025-03-26 17:00:56 [INFO] buyer.pageObjects.LoginPage - English Language implemented in login page ✅
+2025-03-26 17:00:56 [INFO] buyer.pageObjects.LoginPage - Text:- Unleash your potential
+2025-03-26 17:00:56 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check End ------------✨✨
+2025-03-26 17:01:00 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:01:00 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow Start ------------✨✨
+2025-03-26 17:01:04 [INFO] buyer.pageObjects.LoginPage - English Language selected successfully ✅
+2025-03-26 17:01:06 [INFO] buyer.pageObjects.LoginPage - Continue Button clicked ✅
+2025-03-26 17:01:19 [ERROR] buyer.pageObjects.HomePage - Error: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.android.permissioncontroller:id/permission_allow_one_time_button})
+2025-03-26 17:01:52 [ERROR] buyer.utils.AndroidUtils - Expected text not found within 30 seconds: All
+2025-03-26 17:02:04 [ERROR] buyer.pageObjects.HomePage - An error occurred: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.sot.bizup.debug:id/mtTopAll})
+2025-03-26 17:02:04 [INFO] buyer.pageObjects.HomePage - Login successfully ✅
+2025-03-26 17:02:04 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow End ------------✨✨
+2025-03-26 17:02:06 [ERROR] Bizupautomation.testUtils.Listeners - No failed test cases across the entire suite. Email not sent.
+2025-03-26 17:06:02 [INFO] Bizupautomation.testUtils.Base - Base class initialized ✅
+2025-03-26 17:06:02 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ✅
+2025-03-26 17:06:02 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-03-26 17:06:03 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-03-26 17:06:03 [INFO] Bizupautomation.testUtils.Base - ✨✨✨------------ Running tests on App Version: 3.0.4 (151) -----------✨✨✨
+2025-03-26 17:06:43 [INFO] Bizupautomation.testUtils.Base - ✅ Base constructor called. Driver initialized: true
+2025-03-26 17:06:47 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:06:48 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check Start ------------✨✨
+2025-03-26 17:06:49 [INFO] buyer.pageObjects.LoginPage - English Language selected successfully ✅
+2025-03-26 17:06:49 [INFO] buyer.pageObjects.LoginPage - Continue Button clicked ✅
+2025-03-26 17:06:51 [INFO] buyer.pageObjects.LoginPage - English Language implemented in login page ✅
+2025-03-26 17:06:51 [INFO] buyer.pageObjects.LoginPage - Text:- Unleash your potential
+2025-03-26 17:06:51 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check End ------------✨✨
+2025-03-26 17:06:54 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:06:55 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow Start ------------✨✨
+2025-03-26 17:07:05 [ERROR] buyer.pageObjects.LoginPage - TrueCaller not enabled on device ❌
+2025-03-26 17:07:15 [ERROR] buyer.pageObjects.LoginPage - Failed to set mobile number: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.sot.bizup.debug:id/etMobileNo})
+2025-03-26 17:07:15 [ERROR] buyer.pageObjects.LoginPage - Login failed: Mobile number setup failed
+2025-03-26 17:07:15 [INFO] Bizupautomation.testUtils.RetryAnalyzer - 🔄 Retrying LoginFlow | Attempt 2
+2025-03-26 17:07:15 [WARN] Bizupautomation.testUtils.Listeners - ⏳ Test retried and now failed: LoginFlow
+2025-03-26 17:07:19 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:07:19 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow Start ------------✨✨
+2025-03-26 17:07:29 [ERROR] buyer.pageObjects.LoginPage - TrueCaller not enabled on device ❌
+2025-03-26 17:07:39 [ERROR] buyer.pageObjects.LoginPage - Failed to set mobile number: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.sot.bizup.debug:id/etMobileNo})
+2025-03-26 17:07:39 [ERROR] buyer.pageObjects.LoginPage - Login failed: Mobile number setup failed
+2025-03-26 17:07:39 [INFO] Bizupautomation.testUtils.RetryAnalyzer - 🔄 Retrying LoginFlow | Attempt 3
+2025-03-26 17:07:39 [WARN] Bizupautomation.testUtils.Listeners - ⏳ Test retried and now failed: LoginFlow
+2025-03-26 17:07:43 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:07:43 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow Start ------------✨✨
+2025-03-26 17:07:53 [ERROR] buyer.pageObjects.LoginPage - TrueCaller not enabled on device ❌
+2025-03-26 17:08:04 [ERROR] buyer.pageObjects.LoginPage - Failed to set mobile number: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.sot.bizup.debug:id/etMobileNo})
+2025-03-26 17:08:04 [ERROR] buyer.pageObjects.LoginPage - Login failed: Mobile number setup failed
+2025-03-26 17:08:10 [INFO] Bizupautomation.testUtils.Listeners - Report will be saved at: C:\Users\lenovo\eclipse-workspace\BuyerAppAppiumFramworkCloud\reports\TestReport_2025-03-26_17.html
+2025-03-26 17:08:10 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\lenovo\eclipse-workspace\BuyerAppAppiumFramworkCloud\reports\TestReport_2025-03-26_17.html
+2025-03-26 17:08:10 [INFO] Bizupautomation.testUtils.AndroidActions - Added attachment: C:\Users\lenovo\eclipse-workspace\BuyerAppAppiumFramworkCloud\logs\TestLogs_2025-03-26_17.log
+2025-03-26 17:08:15 [INFO] Bizupautomation.testUtils.AndroidActions - ✨✨ Email with multiple attachments sent successfully! ✅
+2025-03-26 17:08:15 [INFO] Bizupautomation.testUtils.AndroidActions - ✅ Email sent with test report and logs!
+2025-03-26 17:28:36 [INFO] Bizupautomation.testUtils.Base - Base class initialized ✅
+2025-03-26 17:28:36 [INFO] Bizupautomation.testCases.version_151.TestLogin - TestLogin class initialized ✅
+2025-03-26 17:28:36 [INFO] Bizupautomation.testCases.version_151.TestSearchSellerChat - TestSearchSellerChat class initialized ✅
+2025-03-26 17:28:36 [INFO] Bizupautomation.testCases.version_151.TestCartFlow - TestCartFlow class initialized ✅
+2025-03-26 17:28:36 [INFO] Bizupautomation.testUtils.Listeners - Test suite started: BizupBuyerApp
+2025-03-26 17:28:37 [INFO] Bizupautomation.testUtils.Base - Loading BrowserStack config: browserstack_app151.yml
+2025-03-26 17:28:37 [INFO] Bizupautomation.testUtils.Base - ✨✨✨------------ Running tests on App Version: 3.0.4 (151) -----------✨✨✨
+2025-03-26 17:29:16 [INFO] Bizupautomation.testUtils.Base - ✅ Base constructor called. Driver initialized: true
+2025-03-26 17:29:22 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:29:26 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check Start ------------✨✨
+2025-03-26 17:29:32 [INFO] buyer.pageObjects.LoginPage - English Language selected successfully ✅
+2025-03-26 17:29:34 [INFO] buyer.pageObjects.LoginPage - Continue Button clicked ✅
+2025-03-26 17:29:36 [INFO] buyer.pageObjects.LoginPage - English Language implemented in login page ✅
+2025-03-26 17:29:36 [INFO] buyer.pageObjects.LoginPage - Text:- Unleash your potential
+2025-03-26 17:29:36 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Language Check End ------------✨✨
+2025-03-26 17:29:41 [INFO] Bizupautomation.testCases.version_151.TestLogin - App restarted before test method ✅
+2025-03-26 17:29:41 [INFO] Bizupautomation.testCases.version_151.TestLogin - ✨✨------------ Login Flow Start ------------✨✨
+2025-03-26 17:29:52 [ERROR] buyer.pageObjects.LoginPage - TrueCaller not enabled on device ❌
