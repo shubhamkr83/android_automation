@@ -375,20 +375,8 @@ After each test suite execution, an **HTML email summary** is automatically sent
 
 ### Sample Email
 
-<table>
-<tr><td>
+![BizUp Mail - 🚀 Bizup Buyer App Test Execution Report_page-0001](https://github.com/user-attachments/assets/b8990746-90a3-4413-8954-63cb606d498b)
 
-**Subject:** 🚀 Bizup Buyer App Test Execution Report
-
-**Content:**
-- 📱 App Version: 3.0.4 (151)
-- 🧪 Test Name: Smoke151
-- ✅ Passed: 8
-- ❌ Failed: 1
-- ⚠️ Skipped: 0
-- 🌐 [View BrowserStack Dashboard](https://app-automate.browserstack.com/...)
-
-</td></tr>
-</table>
+![BizUp Mail - 🚀 Bizup Buyer App Test Execution Report_page-0002](https://github.com/user-attachments/assets/29e984e8-e15a-4d0e-aeb7-bb159c2c3901)
 
 ---
